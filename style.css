@@ -13,3 +13,13 @@ Theme URI: https://lukek.dev
 License: 
 License URI: 
 */
+
+
+.fade-container {
+  box-shadow: inset 0 0 0 100px #000000aa;
+  transition: box-shadow 400ms;
+}
+
+.fade-container:hover {
+  box-shadow: inset 0 0 0 100px #00000000;
+}
