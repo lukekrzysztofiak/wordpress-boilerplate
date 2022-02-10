@@ -14,6 +14,22 @@ License:
 License URI: 
 */
 
+.fade-loader {
+  background-image: linear-gradient(
+  #EEEEEE 0%, #EEEEEE 40%,
+  #DDDDDD 50%, #DDDDDD 55%,
+  #EEEEEE 65%, #EEEEEE 100%,
+  );
+  
+  background-size: 400px;
+  animation: fade-loader 1500ms infinite;
+}
+
+@keyframes fade-loader {
+  from { background-position: 100% 100%; }
+  to { background-position: 0 0; }
+}
+
 
 .fade-container {
   box-shadow: inset 0 0 0 100px #000000aa;
