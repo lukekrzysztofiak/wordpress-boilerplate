@@ -23,3 +23,9 @@ License URI:
 .fade-container:hover {
   box-shadow: inset 0 0 0 100px #00000000;
 }
+
+.has-dropcaps::first-letter {
+  font-size: 3rem;
+  float: left;
+  margin-right: 10px;
+}
