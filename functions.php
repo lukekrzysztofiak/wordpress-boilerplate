@@ -175,12 +175,5 @@ if ( ! function_exists( 'lkdev1_enqueue_scripts' ) ) :
     add_action( 'wp_enqueue_scripts', 'lkdev1_enqueue_scripts' );
 endif;
 
-function pgwp_sanitize_placeholder($input) { return $input; }
-/*
- * Resource files included by Fluentality**.
- */
-/* Fluentality** generated Include Resources Begin */
 
-
-    /* Fluentality** generated Include Resources End */
 ?>
